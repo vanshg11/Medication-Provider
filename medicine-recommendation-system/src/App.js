@@ -579,7 +579,7 @@ function App() {
         <p className="disease-prediction-text">
           Our Personalized AI Health Advisor <br />
           <button
-            onClick={() => window.open("http://localhost:8502/", "_blank")}
+            onClick={() => window.open("http://localhost:8501/", "_blank")}
             className="disease-prediction-button"
           >
             Click here to get started
