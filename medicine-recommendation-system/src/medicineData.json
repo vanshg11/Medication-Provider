@@ -1,0 +1,178 @@
+{
+  "headache": [
+    { "name": "Paracetamol", "dose": "500mg twice a day" },
+    { "name": "Ibuprofen", "dose": "200mg three times a day" }
+  ],
+  "fever": [
+    { "name": "Aspirin", "dose": "300mg every 4-6 hours" },
+    { "name": "Acetaminophen", "dose": "500mg every 6 hours" }
+  ],
+  "cold": [
+    { "name": "Cetirizine", "dose": "10mg once daily" },
+    { "name": "Phenylephrine", "dose": "10mg every 4 hours" }
+  ],
+  "cough": [
+    { "name": "Dextromethorphan", "dose": "30mg every 6 hours" },
+    { "name": "Guaifenesin", "dose": "200mg every 4 hours" }
+  ],
+  "sore throat": [
+    { "name": "Amoxicillin", "dose": "500mg every 8 hours" },
+    { "name": "Ibuprofen", "dose": "200mg every 6 hours" }
+  ],
+  "allergy": [
+    { "name": "Loratadine", "dose": "10mg once daily" },
+    { "name": "Fexofenadine", "dose": "180mg once daily" }
+  ],
+  "diarrhea": [
+    { "name": "Loperamide", "dose": "2mg after each loose stool" },
+    { "name": "Oral Rehydration Solution", "dose": "As needed for rehydration" }
+  ],
+  "constipation": [
+    { "name": "Lactulose", "dose": "10g daily" },
+    { "name": "Bisacodyl", "dose": "5mg once daily" }
+  ],
+  "nausea": [
+    { "name": "Ondansetron", "dose": "4mg every 8 hours" },
+    { "name": "Dimenhydrinate", "dose": "50mg every 6 hours" }
+  ],
+  "vomiting": [
+    { "name": "Metoclopramide", "dose": "10mg three times a day" },
+    { "name": "Prochlorperazine", "dose": "5mg every 6 hours" }
+  ],
+  "indigestion": [
+    { "name": "Ranitidine", "dose": "150mg twice a day" },
+    { "name": "Omeprazole", "dose": "20mg once daily" }
+  ],
+  "heartburn": [
+    { "name": "Pantoprazole", "dose": "40mg once daily" },
+    { "name": "Esomeprazole", "dose": "20mg once daily" }
+  ],
+  "gas": [
+    { "name": "Simethicone", "dose": "125mg after meals" },
+    { "name": "Charcoal tablets", "dose": "500mg after meals" }
+  ],
+  "acidity": [
+    { "name": "Aluminum Hydroxide", "dose": "500mg after meals" },
+    { "name": "Magnesium Hydroxide", "dose": "300mg as needed" }
+  ],
+  "stomach ache": [
+    { "name": "Dicyclomine", "dose": "20mg four times daily" },
+    { "name": "Hyoscyamine", "dose": "125mcg every 4 hours" }
+  ],
+  "back pain": [
+    { "name": "Ibuprofen", "dose": "400mg every 6 hours" },
+    { "name": "Naproxen", "dose": "250mg twice a day" }
+  ],
+  "muscle pain": [
+    { "name": "Acetaminophen", "dose": "500mg every 4 hours" },
+    { "name": "Diclofenac", "dose": "50mg three times a day" }
+  ],
+  "joint pain": [
+    { "name": "Celecoxib", "dose": "100mg twice a day" },
+    { "name": "Meloxicam", "dose": "7.5mg once daily" }
+  ],
+  "toothache": [
+    { "name": "Ibuprofen", "dose": "400mg every 6 hours" },
+    { "name": "Paracetamol", "dose": "500mg every 6 hours" }
+  ],
+  "ear infection": [
+    { "name": "Amoxicillin", "dose": "500mg every 8 hours" },
+    { "name": "Ciprofloxacin ear drops", "dose": "3 drops twice daily" }
+  ],
+  "eye infection": [
+    { "name": "Tobramycin eye drops", "dose": "1 drop every 4 hours" },
+    { "name": "Chloramphenicol eye drops", "dose": "1 drop every 6 hours" }
+  ],
+  "sinus infection": [
+    { "name": "Amoxicillin", "dose": "500mg every 8 hours" },
+    { "name": "Fluticasone nasal spray", "dose": "2 sprays once daily" }
+  ],
+  "bronchitis": [
+    { "name": "Azithromycin", "dose": "500mg once daily for 3 days" },
+    { "name": "Salbutamol", "dose": "2 puffs every 4 hours" }
+  ],
+  "asthma": [
+    { "name": "Salbutamol", "dose": "2 puffs as needed" },
+    { "name": "Budesonide", "dose": "200mcg twice daily" }
+  ],
+  "hypertension": [
+    { "name": "Amlodipine", "dose": "5mg once daily" },
+    { "name": "Losartan", "dose": "50mg once daily" }
+  ],
+  "high cholesterol": [
+    { "name": "Atorvastatin", "dose": "10mg once daily" },
+    { "name": "Rosuvastatin", "dose": "20mg once daily" }
+  ],
+  "diabetes": [
+    { "name": "Metformin", "dose": "500mg twice daily" },
+    { "name": "Glimepiride", "dose": "2mg once daily" }
+  ],
+  "thyroid": [
+    { "name": "Levothyroxine", "dose": "50mcg once daily" },
+    { "name": "Liothyronine", "dose": "25mcg once daily" }
+  ],
+  "insomnia": [
+    { "name": "Zolpidem", "dose": "5mg once before bed" },
+    { "name": "Melatonin", "dose": "3mg once before bed" }
+  ],
+  "anxiety": [
+    { "name": "Alprazolam", "dose": "0.5mg twice a day" },
+    { "name": "Diazepam", "dose": "5mg once daily" }
+  ],
+  "depression": [
+    { "name": "Sertraline", "dose": "50mg once daily" },
+    { "name": "Fluoxetine", "dose": "20mg once daily" }
+  ],
+  "UTI": [
+    { "name": "Nitrofurantoin", "dose": "100mg twice daily" },
+    { "name": "Ciprofloxacin", "dose": "500mg twice daily" }
+  ],
+  "acne": [
+    { "name": "Benzoyl Peroxide", "dose": "Apply once daily" },
+    { "name": "Clindamycin gel", "dose": "Apply twice daily" }
+  ],
+  "eczema": [
+    { "name": "Hydrocortisone cream", "dose": "Apply once daily" },
+    { "name": "Tacrolimus ointment", "dose": "Apply twice daily" }
+  ],
+  "psoriasis": [
+    { "name": "Calcipotriene cream", "dose": "Apply twice daily" },
+    { "name": "Methotrexate", "dose": "10mg once weekly" }
+  ],
+  "hair loss": [
+    { "name": "Minoxidil", "dose": "Apply twice daily" },
+    { "name": "Finasteride", "dose": "1mg once daily" }
+  ],
+  "anemia": [
+    { "name": "Ferrous Sulfate", "dose": "325mg once daily" },
+    { "name": "Vitamin B12", "dose": "1000mcg once monthly" }
+  ],
+  "vitamin D deficiency": [
+    { "name": "Cholecalciferol", "dose": "2000 IU once daily" },
+    { "name": "Ergocalciferol", "dose": "50,000 IU weekly" }
+  ],
+  "osteoporosis": [
+    { "name": "Alendronate", "dose": "70mg once weekly" },
+    { "name": "Calcium Carbonate", "dose": "500mg daily" }
+  ],
+  "arthritis": [
+    { "name": "Celecoxib", "dose": "200mg once daily" },
+    { "name": "Methotrexate", "dose": "7.5mg once weekly" }
+  ],
+  "gout": [
+    { "name": "Allopurinol", "dose": "300mg once daily" },
+    { "name": "Colchicine", "dose": "0.6mg twice daily" }
+  ],
+  "obesity": [
+    { "name": "Orlistat", "dose": "120mg three times daily" },
+    { "name": "Phentermine", "dose": "15mg once daily" }
+  ],
+  "flu": [
+    { "name": "Oseltamivir", "dose": "75mg twice daily for 5 days" },
+    { "name": "Zanamivir", "dose": "2 inhalations twice daily for 5 days" }
+  ],
+  "bacterial infection": [
+    { "name": "Amoxicillin", "dose": "500mg every 8 hours" },
+    { "name": "Azithromycin", "dose": "500mg once daily for 3 days" }
+  ]
+}

@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+:root {
+  --bg-dark: #121212;
+  --text-primary: #e0e0e0;
+  --text-secondary: #888888;
+  --accent: #c62828;
+  --accent-hover: #a21f1f;
+  --border-radius: 6px;
+  --transition: 0.3s ease;
+  --font-main: "Poppins", sans-serif;
+}
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: var(--font-main);
+  background-color: var(--bg-dark);
+  color: var(--text-primary);
+  line-height: 1.6;
+  padding: 1rem;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+  transition: color var(--transition);
+}
+a:hover {
+  color: var(--accent-hover);
+}
+
+/* Header */
+.header {
+  text-align: center;
+  padding: 1.5rem 0;
+  margin-bottom: 2rem;
+  border-bottom: 2px solid var(--accent);
+}
+.header h1 {
+  font-size: 2.5rem;
+  color: var(--accent);
+  font-weight: 600;
+}
+
+/* Main Container */
+.dashboard {
+  max-width: 800px;
+  margin: auto;
+}
+
+/* Section Styling: stacked, spaced, simple separators */
+.dashboard > * {
+  width: 100%;
+  padding: 1rem 0;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid #333;
+}
+/* Remove border from last section */
+.dashboard > *:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
+/* Section Headings */
+.search-container h2,
+.upload-section h2,
+.reminder-section h2,
+.calendar-section h2,
+.dosage-calculator h2,
+.history-section h2,
+.side-effects-section h2,
+.recommendations-section h2,
+.interaction-checker h2,
+.chat-consultation h2,
+.progress-tracker h2,
+.export-csv h2,
+.symptom-checker h2,
+.wellness-tracker h2,
+.disease-prediction-container h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.75rem;
+  color: var(--accent);
+  font-weight: 600;
+}
+
+/* Inputs and Textareas */
+input,
+textarea,
+select {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  background-color: #1e1e1e;
+  border: 1px solid #333;
+  border-radius: var(--border-radius);
+  color: var(--text-primary);
+  transition: border-color var(--transition);
+}
+input:focus,
+textarea:focus,
+select:focus {
+  border-color: var(--accent);
+  outline: none;
+}
+
+/* Buttons */
+button {
+  background-color: var(--accent);
+  color: #000;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: var(--border-radius);
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color var(--transition), transform var(--transition);
+}
+button:hover {
+  background-color: var(--accent-hover);
+  transform: translateY(-2px);
+}
+button:active {
+  transform: translateY(0);
+}
+
+/* Lists */
+ul {
+  list-style: none;
+  padding-left: 1rem;
+}
+.medicine-list li,
+.reminder-list li,
+.prescription-list li,
+.mood-log li,
+.conditions-list li,
+.history-section li {
+  padding: 0.75rem 0;
+  margin-bottom: 0.5rem;
+  border-bottom: 1px solid #333;
+}
+.medicine-list li:last-child,
+.reminder-list li:last-child,
+.prescription-list li:last-child,
+.mood-log li:last-child,
+.conditions-list li:last-child,
+.history-section li:last-child {
+  border-bottom: none;
+}
+
+/* Calendar */
+.calendar-section .react-calendar {
+  width: 100%;
+  max-width: 100%;
+  background-color: #1e1e1e;
+  border: none;
+  color: var(--text-primary);
+}
+.calendar-section .react-calendar__tile--active {
+  background-color: var(--accent);
+  color: #000;
+  border-radius: var(--border-radius);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  body {
+    padding: 0.5rem;
+  }
+}
